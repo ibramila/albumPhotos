@@ -1,0 +1,38 @@
+form {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 10px;
+    margin: 50px 0;
+    width: 50%;
+    top: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+
+
+}
+
+button {
+    background-color: #b83305;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    align-self: center;
+    border: 1px solid lightgray;
+}
+
+input {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+
+    &:focus,
+    &:hover {
+        border: 1px solid #b83305;
+    }
+}
